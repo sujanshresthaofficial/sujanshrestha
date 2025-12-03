@@ -20,10 +20,6 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* .wrapper {
-    background: linear-gradient(to top, #000, #eee);
-} */
-
 .logo {
     margin: 0;
     margin-left: 10px;
@@ -90,9 +86,13 @@ a {
     border: var(--bg-color) 1px solid;
 }
 
-.bioName {
+.bioName-h1 {
     margin: 10px;
     font-size: 16px;
+    background: linear-gradient(90deg, #00eaff, #ff00ea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .bioName::selection {
