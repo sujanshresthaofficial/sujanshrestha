@@ -156,9 +156,17 @@ a {
     background-clip: text;
     color: transparent;
     font-size: 1.5em; 
-    box-shadow: 0px 8px 16px #FE2C55;
+    box-shadow: 0px 8px 16px var(--text-color);
     transition: 0.4s;
 }
+
+.bioIcon div .fa-github:hover {
+    color: var(--text-color);
+    font-size: 1.5em; 
+    box-shadow: 0px 8px 16px var(--text-color);
+    transition: 0.4s;
+}
+
 
 .bioIcon div .fa-youtube:hover {
     color: #ff0000; 
