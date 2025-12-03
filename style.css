@@ -90,10 +90,6 @@ a {
     margin: 10px;
     font-size: 72px;
     font-weight: bold;
-    background: linear-gradient(90deg, #25F4EE, #FE2C55);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .bioName::selection {
