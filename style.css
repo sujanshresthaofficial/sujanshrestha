@@ -86,7 +86,7 @@ a {
     border: var(--bg-color) 1px solid;
 }
 
-.bioName text {
+.bioName-text {
     margin: 10px;
     font-size: 72px;
     font-weight: bold;
