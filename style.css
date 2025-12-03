@@ -86,12 +86,12 @@ a {
     border: var(--bg-color) 1px solid;
 }
 
-.bioName-h1 {
+.bioName {
     margin: 10px;
     font-size: 16px;
-    background: linear-gradient(90deg, #00eaff, #ff00ea);
-    -webkit-background-clip: text;
-    background-clip: text;
+    background: linear-gradient(90deg, #25F4EE, #FE2C55);
+    -webkit-background-clip: var(--text-color);
+    background-clip: var(--text-color);
     color: transparent;
 }
 
