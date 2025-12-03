@@ -90,8 +90,8 @@ a {
     margin: 10px;
     font-size: 16px;
     background: linear-gradient(90deg, #25F4EE, #FE2C55);
-    -webkit-background-clip: var(--text-color);
-    background-clip: var(--text-color);
+    -webkit-background-clip: h1;
+    background-clip: h1;
     color: transparent;
 }
 
