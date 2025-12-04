@@ -15,7 +15,7 @@
     <div class="wrapper">
         <div class="header">
             <div class="logo">
-                <a href="index.html"><img src="newLogo.png" alt="Logo" width="50px" height="50px"></a>
+                <a href="index.html"><img src="images/newLogo.png" alt="Logo" width="50px" height="50px"></a>
             </div>
 
             <div class="nav">
@@ -42,11 +42,11 @@
             <form action="/submit_page" method="post">
                 <div>
                     <h4>Enter Your Name: <a class="mandatory">*</a> </h4>
-                    <input type="text" pattern="[A-Za-z]+" title="Only letters (A-Za-z) are allowed" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Name"  title="Only letters (A-Za-z) are allowed" required pattern="[A-Za-z]">
                 </div>
                 <div>
                     <h4>Enter Your Mail ID: <a class="mandatory">*</a> </h4>
-                    <input type="text" placeholder="you@example.com" required>
+                    <input type="email" placeholder="you@example.com"  title="Invalid email address. Please check for typos or incorrect domains" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 </div>
                 <div>
                     <h4>Description:</h4>
