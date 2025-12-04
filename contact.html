@@ -42,11 +42,11 @@
             <form action="/submit_page" method="post">
                 <div>
                     <h4>Enter Your Name: <a class="mandatory">*</a> </h4>
-                    <input type="text" placeholder="Your Name"  title="Only letters are allowed" required pattern="[A-Za-z]">
+                    <input type="text" pattern="[A-Za-z]" placeholder="Your Name"  title="Only letters are allowed" required>
                 </div>
                 <div>
                     <h4>Enter Your Mail ID: <a class="mandatory">*</a> </h4>
-                    <input type="email" placeholder="you@example.com"  title="Invalid email address. Please check for typos or incorrect domains" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+-                    <input type="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="you@example.com"  title="Invalid email address. Please check for typos or incorrect domains" required>
                 </div>
                 <div>
                     <h4>Description:</h4>
