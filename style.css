@@ -244,7 +244,7 @@ a {
 
 .project-link {
     color: #1877f5;
-    transition: 0,2s ease;
+    transition: 0.2s ease;
 }
 
 .project-link:hover {
