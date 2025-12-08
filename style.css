@@ -320,6 +320,34 @@ input:checked+.slider:before {
 }
 
 /* page-contact */
+.contact-getInTouch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.getInTouch {
+    padding: 30px;
+}
+
+.with-contactSujanShrestha {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.getInTouch img {
+    height: fit-content;
+    width: 500px;
+    height: 400px;
+    filter: drop-shadow(8px 100px 80px blue);
+    margin-bottom: 10px;
+}
+
 .getInTouch-form {
     display: grid;
     justify-content: center;
@@ -336,7 +364,7 @@ input:checked+.slider:before {
     margin-bottom: -50px;
     padding: 30px;
     display: flex;
-    font-size: x-large;
+    font-size: 30px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -379,6 +407,7 @@ form label {
 }
 
 form textarea {
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
@@ -416,13 +445,12 @@ form textarea {
     justify-content: center;
     border-style: none;
     border-radius: 0.5rem;
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-size: 20px;
-    background-color: var(--text-color);
+    font-weight: bold;
     box-shadow: 0 0 10px var(--text-color);
     transition: .4s;
-    
 }
 
 .button-submit {

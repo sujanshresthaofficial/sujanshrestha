@@ -38,36 +38,44 @@
             </div>
         </div>
 
-        <div class="getInTouch-form">
+        <div class="contact-getInTouch">
 
-            <div class="contactPageHead">
-                <h2>GET IN TOUCH</h2>
+            <div class="getInTouch">
+                <p class="with-contactSujanShrestha">Contact with Sujan Shrestha</p>
+                <img src="images/getInTouchh.png" alt="Get In Touch">
             </div>
 
-            <p style="display: flex; justify-content: center; align-items: center; color: #888;">Have questions or
-                ideas? Drop me a message! <br> Reach out via the 'Get In Touch' form below.</p>
+            <div class="getInTouch-form">
 
-            <div class="contact">
-                <form action="/submit_page" method="post">
-                    <div>
-                        <label>Name: <a class="mandatory">*</a> </label>
-                        <input type="text" id="name" pattern="[A-Za-z\s]+" placeholder="Your Name"
-                            title="Please enter a valid name!" required>
-                    </div>
-                    <div>
-                        <label>Mail Address: <a class="mandatory">*</a> </label>
-                        <input type="mail" id="mail"
-                            placeholder="user@example.com"
-                            title="Please enter a valid mail address!" required>
-                    </div>
-                    <div>
-                        <label>Message:</label>
-                        <textarea name="description" id="description" placeholder="Your text here..."></textarea>
-                    </div>
-                    <div class="button-submit">
-                        <button class="submit" id="submit">Get in touch</button>
-                    </div>
-                </form>
+                <div class="contactPageHead">
+                    <h2>GET IN TOUCH</h2>
+                </div>
+
+                <p style="display: flex; justify-content: center; align-items: center; color: #888;">Have questions or
+                    ideas? Drop me a message! <br> Reach out via the 'Get In Touch' form below.</p>
+
+                <div class="contact">
+                    <form action="https://formsubmit.co/el/wejuhe" method="post">
+                        <div>
+                            <label>Name: <a class="mandatory">*</a> </label>
+                            <input type="text" name="Name" id="name" pattern="[A-Za-z\s]+" placeholder="Your Name"
+                                title="Please enter a valid name!" required>
+                        </div>
+                        <div>
+                            <label>Mail Address: <a class="mandatory">*</a> </label>
+                            <input type="mail" name="Mail" id="mail" placeholder="user@example.com"
+                                title="Please enter a valid mail address!" required>
+                        </div>
+                        <div>
+                            <label>Message:</label>
+                            <textarea type="Message" name="message" id="description"
+                                placeholder="Your text here..."></textarea>
+                        </div>
+                        <div class="button-submit">
+                            <button type="button" name="button-submit" class="submit" id="submit">Get in touch</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
