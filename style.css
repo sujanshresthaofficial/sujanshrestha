@@ -449,7 +449,7 @@ form textarea {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     box-shadow: 0 0 10px var(--text-color);
     transition: .4s;
 }
