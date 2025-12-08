@@ -95,7 +95,7 @@ a {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    box-shadow: 0 0 10px var(--text-color);
+    box-shadow: 0 0 10px #1877f5;
     border: var(--bg-color) 1px solid;
 }
 
