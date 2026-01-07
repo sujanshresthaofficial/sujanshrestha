@@ -95,6 +95,8 @@ a {
 }
 
 .nameSection .intro {
+    width: 100%;
+    max-width: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
