@@ -101,8 +101,8 @@ a {
 }
 
 .dpimg img {
-    height: 500px;
-    width: 375px;
+    height: 50vmin;
+    width: 37.5vmin;
     aspect-ratio: 3/4;
     -webkit-mask-image: radial-gradient(circle, black 40%, transparent 60%);
     mask-image: radial-gradient(circle, black 40%, transparent 60%);
@@ -110,8 +110,8 @@ a {
 
 @media screen and (max-width: 767px) {
     .dpimg img {
-        height: 500px;
-        width: 375px;
+        height: 50vmin;
+        width: 37.5vmin;
         aspect-ratio: 3/4;
         -webkit-mask-image: radial-gradient(circle, black 25%, transparent 95%);
         mask-image: radial-gradient(circle, black 25%, transparent 95%);
