@@ -108,7 +108,7 @@ a {
     mask-image: radial-gradient(circle, black 40%, transparent 60%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .dpimg img {
         height: 50vmin;
         width: 37.5vmin;
