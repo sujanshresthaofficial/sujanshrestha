@@ -1,4 +1,4 @@
-const toggleSwitch = document.getElementById('checkbox');
+const toggleSwitch = document.getElementById('modeToggle');
 const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme) {
